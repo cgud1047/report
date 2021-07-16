@@ -1,13 +1,12 @@
-﻿//#include <windows.h>
+﻿//計算ゲーム
+
+#include <windows.h>
 #include <curses.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <string>
 #include "gba1.h"
-
-//計算トレーニングゲーム
-
 
 int main(void) {
 
