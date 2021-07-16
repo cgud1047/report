@@ -1,0 +1,10 @@
+﻿  report.cpp
+C:\Users\cgud1047\Desktop\report\PDCursesLib\include\curses.h(189,1): warning C4005: 'MOUSE_MOVED': マクロが再定義されました。
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\wincontypes.h(103): message : 'MOUSE_MOVED' の以前の定義を確認してください
+C:\Users\cgud1047\Desktop\report\report\report.cpp(35,9): warning C4566: ユニバーサル文字名 '\u00A5' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\cgud1047\Desktop\report\report\report.cpp(114,9): warning C4566: ユニバーサル文字名 '\u00A5' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\cgud1047\Desktop\report\report\report.cpp(115,9): warning C4566: ユニバーサル文字名 '\u00A5' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\cgud1047\Desktop\report\report\report.cpp(121,28): warning C4566: ユニバーサル文字名 '\u00A5' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\cgud1047\Desktop\report\report\report.cpp(130,28): warning C4566: ユニバーサル文字名 '\u00A5' によって表示されている文字は、現在のコード ページ (932) で表示できません
+C:\Users\cgud1047\Desktop\report\report\report.cpp(139,10): warning C4566: ユニバーサル文字名 '\u00A5' によって表示されている文字は、現在のコード ページ (932) で表示できません
+LINK : fatal error LNK1181: 入力ファイル 'C:\Users\cgud1047\Desktop\report\PDCursesLib\lib.obj' を開けません。
