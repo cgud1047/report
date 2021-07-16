@@ -1,4 +1,4 @@
-﻿//#include <windows.h>
+﻿#include <windows.h>
 #include <curses.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -6,23 +6,23 @@
 #include <string>
 #include "gba1.h"
 
-int key;
-
 //計算トレーニングゲーム
 //ゲーム画面は、初期画面、計算画面、終了画面の3種類ある
 
 int main(void) {
 
+
+    int key;
+	int num = 1; //問題番号numを1に設定
+	int cnt=0;//正解回数
+
 	// 初期化
 	if (initscr() == NULL) {
 		return 1;
 	}
-	/* ゲーム画面1 */
+	
     mvaddstr(5, 15, "-----Calculation Game-----");
-
-	/* ゲーム画面2 */
-	int num = 1; //問題番号numを1に設定
-	int cnt=0;//正解回数
+	
 
 	while (1) {
 
