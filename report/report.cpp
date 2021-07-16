@@ -1,4 +1,4 @@
-﻿#include <windows.h>
+﻿//#include <windows.h>
 #include <curses.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -7,7 +7,7 @@
 #include "gba1.h"
 
 //計算トレーニングゲーム
-//ゲーム画面は、初期画面、計算画面、終了画面の3種類ある
+
 
 int main(void) {
 
@@ -20,7 +20,7 @@ int main(void) {
 	if (initscr() == NULL) {
 		return 1;
 	}
-	
+
     mvaddstr(5, 15, "-----Calculation Game-----");
 	
 
