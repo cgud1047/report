@@ -12,7 +12,7 @@
 int main(void) {
 
 
-	int key;
+	int key; //キー
 	int num = 1; //問題番号numを1に設定
 	double cnt=0; //正答数
 	double correct;//正答率
